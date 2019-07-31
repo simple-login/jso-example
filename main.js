@@ -25,7 +25,11 @@ function reset() {
   localStorage.clear();
   sessionStorage.clear();
   client.wipeTokens();
+
   alert("reset successfully");
+
+  // clear all params in url
+  location.href = "/";
 }
 
 function getUserData(token) {
