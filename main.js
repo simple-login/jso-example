@@ -1,6 +1,6 @@
 let client = new jso.JSO({
   client_id: "client-id",
-  redirect_uri: "http://localhost:8000/",
+  redirect_uri: location.href,
   authorization: "https://app.simplelogin.io/oauth2/authorize",
 });
 
