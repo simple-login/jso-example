@@ -1,5 +1,7 @@
 This is an example of a website that implements SimpleLogin using [JSO](https://github.com/andreassolberg/jso). 
 
+The code is deployed on https://simplelogin-jso-example.nguyenkims.now.sh, feel free to check that out 🙂.
+
 Upon successful login, you will see a popup (`alert`) containing the information that the website receives 
 when you sign in with SimpleLogin.
 
